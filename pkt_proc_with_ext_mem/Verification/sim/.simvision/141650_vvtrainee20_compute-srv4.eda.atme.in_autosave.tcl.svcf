@@ -1,0 +1,147 @@
+
+#
+# Preferences
+#
+preferences set plugin-enable-svdatabrowser-new 1
+preferences set cursorctl-dont-show-sync-warning 1
+preferences set toolbar-CursorControl-WaveWindow {
+  usual
+  position -row 3
+}
+preferences set toolbar-TimeSearch-WaveWindow {
+  usual
+  position -row 2 -pos 0
+}
+preferences set toolbar-NavSignalList-WaveWindow {
+  usual
+  position -row 0 -anchor e
+}
+preferences set toolbar-txe_waveform_toggle-WaveWindow {
+  usual
+  position -row 1 -pos 1
+}
+preferences set toolbar-Standard-WaveWindow {
+  usual
+  position -row 1
+}
+preferences set plugin-enable-groupscope 0
+preferences set plugin-enable-interleaveandcompare 0
+preferences set plugin-enable-waveformfrequencyplot 0
+preferences set toolbar-Windows-WaveWindow {
+  usual
+  position -row 1 -pos 2
+}
+preferences set toolbar-WaveZoom-WaveWindow {
+  usual
+  position -row 3 -pos 1
+}
+preferences set savedlg-simulator ppe
+
+#
+# Databases
+#
+database require wave -search {
+	./wave.shm/wave.trn
+	/home/vvtrainee20/Desktop/Yoganarasimha/Project2/pkt_proc_with_ext_mem/Verification/sim/wave.shm/wave.trn
+}
+
+#
+# Mnemonic Maps
+#
+mmap new  -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new  -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1920x1082+-1+34}] != ""} {
+    window geometry "Waveform 1" 1920x1082+-1+34
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar select designbrowser
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ns \
+    -valuewidth 75
+waveform baseline set -time 0
+
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.clk
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.rstn
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.sw_rst
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.enq_req
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.enq_pck_len_valid
+	} ]
+set id [waveform add -signals  {
+	{wave::pkt_proc_with_ext_mem_top.DUT.enq_pck_len_i[11:0]}
+	} ]
+waveform format $id -radix %d
+set id [waveform add -signals  {
+	{wave::pkt_proc_with_ext_mem_top.DUT.enq_wr_data_i[31:0]}
+	} ]
+waveform format $id -radix %x
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.deq_req
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.enq_in_sop
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.enq_in_eop
+	} ]
+set id [waveform add -signals  {
+	{wave::pkt_proc_with_ext_mem_top.DUT.deq_rd_data_o[31:0]}
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.ram_empty
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.ram_full
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.ram_overflow
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.ram_underflow
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.data_valid
+	} ]
+set id [waveform add -signals  {
+	wave::pkt_proc_with_ext_mem_top.DUT.enq_packet_drop
+	} ]
+set id [waveform add -signals  {
+	{wave::pkt_proc_with_ext_mem_top.DUT.ram.mem[16383:0]}
+	} ]
+waveform hierarchy collapse $id
+
+waveform xview limits 0 1170ns
+
+#
+# Waveform Window Links
+#
+
+#
+# Console windows
+#
+console set -windowname Console
+window geometry Console 600x250+0+0
+
+#
+# Layout selection
+#

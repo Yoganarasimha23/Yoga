@@ -1,0 +1,82 @@
+
+#
+# Mnemonic Maps
+#
+mmap new  -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new  -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+array unset createdGroup
+array set createdGroup {}
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.clk}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.rstn}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_req}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_len_valid}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_len_i[11:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_in_sop}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_wr_data_i[31:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_in_eop}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.deq_req}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_almost_empty_value[4:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_almost_full_value[4:0]}]}
+	} ]]
+set id [waveform add -cdivider divider]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.deq_rd_data_o[31:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_packet_drop}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_almost_empty}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_almost_full}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_empty}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_full}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_overflow}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_underflow}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.enq_pck_proc_wr_lvl[14:0]}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.rd_en_mem}]}
+	} ]]
+set id [waveform add -signals [subst  {
+	{[format {pkt_proc_with_ext_mem_top.DUT.wr_en_mem}]}
+	} ]]
+
+waveform xview limits 0 1080ns

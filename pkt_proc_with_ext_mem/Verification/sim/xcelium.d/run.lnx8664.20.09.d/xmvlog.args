@@ -1,0 +1,36 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.20.09.d
+-RUNMODE
+-UVMNOSINGLESTEP
+-define
+UVM_PLI
+./../../RTL/Packet_Proc_Ext_Top.sv
+./../../RTL/pck_len_buffer.sv
+./../../RTL/pck_len_fifo.sv
+./../../RTL/int_buffer_top.sv
+./../../RTL/int_buffer.sv
+./../../RTL/dual_port_ram.sv
+./../../RTL/pck_proc_int_mem_TOP.sv
+./../uvme/top/pkt_proc_with_ext_mem_if.sv
+./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv
+./../uvme/top/pkt_proc_with_ext_mem_top.sv
+-CDSLIB
+./xcelium.d/run.lnx8664.20.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.20.09.d/hdlrun.var
+-I_INCDIR
+/tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src
+-DEFINE
+USE_PARAMETERIZED_WRAPPER
+-I_INCDIR
+/tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/additions/sv
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.20.09.d/xllibs
+-ALLOWUNBOUND
+-ENABLEOIGW

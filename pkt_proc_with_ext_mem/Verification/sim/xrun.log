@@ -1,0 +1,794 @@
+xrun(64): 20.09-s009: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s009: Started on Feb 26, 2023 at 21:26:49 IST
+xrun
+	-access +rwc
+	-f compile_list.f
+		./../../RTL/Packet_Proc_Ext_Top.sv
+		./../../RTL/pck_len_buffer.sv
+		./../../RTL/pck_len_fifo.sv
+		./../../RTL/int_buffer_top.sv
+		./../../RTL/int_buffer.sv
+		./../../RTL/dual_port_ram.sv
+		./../../RTL/pck_proc_int_mem_TOP.sv
+		./../uvme/top/pkt_proc_with_ext_mem_if.sv
+		./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv
+		./../uvme/top/pkt_proc_with_ext_mem_top.sv
+	-uvmhome CDNS-1.1d
+	+UVM_TESTNAME=pkt_proc_with_ext_mem_valid_pktlen_test
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Recompiling... reason: file '../uvme/agent/pkt_proc_with_ext_mem_monitor.sv' is newer than expected.
+	expected: Sun Feb 26 21:11:20 2023
+	actual:   Sun Feb 26 21:26:44 2023
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+file: ./../../RTL/pck_len_buffer.sv
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                                                                                                                |
+xmvlog: *W,NOCMIC (./../../RTL/pck_len_buffer.sv,22|112): error-prone block comment nested within block comment [2.3(IEEE)].
+file: ./../../RTL/int_buffer.sv
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                                                                                                                |
+xmvlog: *W,NOCMIC (./../../RTL/int_buffer.sv,22|112): error-prone block comment nested within block comment [2.3(IEEE)].
+file: ./../../RTL/pck_proc_int_mem_TOP.sv
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                                                                                                                |
+xmvlog: *W,NOCMIC (./../../RTL/pck_proc_int_mem_TOP.sv,22|112): error-prone block comment nested within block comment [2.3(IEEE)].
+file: ./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv
+		req.randomize(rstn);
+		            |
+xmvlog: *W,FUNTSK (./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv,18|14): function called as a task without void'().
+(`include file: ./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv line 18, file: ./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv line 14)
+		req.randomize(enq_req);
+		            |
+xmvlog: *W,FUNTSK (./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv,19|14): function called as a task without void'().
+(`include file: ./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv line 19, file: ./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv line 14)
+		req.randomize(enq_pck_len_valid);
+		            |
+xmvlog: *W,FUNTSK (./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv,20|14): function called as a task without void'().
+(`include file: ./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv line 20, file: ./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv line 14)
+		req.randomize(enq_pck_len_i);
+		            |
+xmvlog: *W,FUNTSK (./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv,21|14): function called as a task without void'().
+(`include file: ./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv line 21, file: ./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv line 14)
+			req.randomize(enq_wr_data_i);
+			            |
+xmvlog: *W,FUNTSK (./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv,30|15): function called as a task without void'().
+(`include file: ./../uvme/sequence/pkt_proc_with_ext_mem_random_write_sequence.sv line 30, file: ./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv line 14)
+			req.enq_wr_data_i=$urandom_range(0,4294967295);
+			                                            |
+xmvlog: *W,SGNOVF (./../uvme/sequence/pkt_proc_with_ext_mem_overflow_sequence.sv,38|47): sign overflow during conversion from text [2.5(IEEE)] (32 bits).
+(`include file: ./../uvme/sequence/pkt_proc_with_ext_mem_overflow_sequence.sv line 38, file: ./../uvme/uvm_pkg/pkt_proc_with_ext_mem_pkg.sv line 18)
+	package worklib.pkt_proc_with_ext_mem_pkg:sv
+		errors: 0, warnings: 6
+file: ./../uvme/top/pkt_proc_with_ext_mem_top.sv
+	module worklib.pkt_proc_with_ext_mem_top:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 6
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xrun: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmelab: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		pkt_proc_with_ext_mem_pkg
+		pkt_proc_with_ext_mem_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+				,.wr_en_mem(vif.wr_en_mem),.rd_en_mem(vif.rd_en_mem),.deq_rd_data_o(vif.deq_rd_data_o)
+				                                                                                    |
+xmelab: *W,CUVMPW (../uvme/top/pkt_proc_with_ext_mem_top.sv,29|88): port sizes differ in port connection(14/32) for the instance(pkt_proc_with_ext_mem_top) .
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmvlog_cg: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+		worklib.uvm_pkg:sv <0x7c11e631>
+			streams:  21, words: 16952
+		worklib.uvm_pkg:sv <0x0a39a467>
+			streams:  23, words: 42829
+		worklib.uvm_pkg:sv <0x456bcdcd>
+			streams:  21, words: 17826
+		worklib.uvm_pkg:sv <0x2419c0c3>
+			streams:  23, words: 52926
+		worklib.uvm_pkg:sv <0x58e0d815>
+			streams:  21, words: 15974
+		worklib.uvm_pkg:sv <0x364cbb84>
+			streams:  23, words: 38846
+		worklib.uvm_pkg:sv <0x1300a2ec>
+			streams:  21, words: 15399
+		worklib.uvm_pkg:sv <0x0affcf52>
+			streams:  23, words: 38578
+		worklib.uvm_pkg:sv <0x5f195a62>
+			streams:  21, words: 16010
+		worklib.uvm_pkg:sv <0x346b8fc1>
+			streams:  23, words: 35051
+		worklib.uvm_pkg:sv <0x0148b7f4>
+			streams:  21, words: 15702
+		worklib.uvm_pkg:sv <0x70415c24>
+			streams:  23, words: 30352
+		worklib.uvm_pkg:sv <0x1dc63778>
+			streams:  21, words: 15702
+		worklib.uvm_pkg:sv <0x79abd17f>
+			streams:  23, words: 38145
+		worklib.uvm_pkg:sv <0x10fbbfad>
+			streams:  21, words: 15666
+		worklib.uvm_pkg:sv <0x298da503>
+			streams:  23, words: 34891
+		worklib.uvm_pkg:sv <0x2aedc187>
+			streams:  21, words: 15974
+		worklib.uvm_pkg:sv <0x343de3d3>
+			streams:  23, words: 38543
+		worklib.uvm_pkg:sv <0x6e935535>
+			streams:  21, words: 15399
+		worklib.uvm_pkg:sv <0x61fd0fae>
+			streams:  23, words: 38455
+		worklib.uvm_pkg:sv <0x10a30877>
+			streams:  21, words: 15399
+		worklib.uvm_pkg:sv <0x7aea905d>
+			streams:  23, words: 28913
+		worklib.uvm_pkg:sv <0x15615e51>
+			streams:  21, words: 15399
+		worklib.uvm_pkg:sv <0x22fc44eb>
+			streams:  23, words: 38880
+		worklib.uvm_pkg:sv <0x73732b64>
+			streams:  21, words: 15399
+		worklib.uvm_pkg:sv <0x73d2040f>
+			streams:  23, words: 30696
+		worklib.uvm_pkg:sv <0x125d1e5f>
+			streams:  21, words: 15399
+		worklib.uvm_pkg:sv <0x4ed2a375>
+			streams:  23, words: 48436
+		worklib.uvm_pkg:sv <0x384113d3>
+			streams:  21, words: 15399
+		worklib.pkt_proc_with_ext_mem_pkg:sv <0x6a5752e8>
+			streams:  22, words: 16393
+		worklib.uvm_pkg:sv <0x774ed644>
+			streams:  22, words: 20453
+		worklib.uvm_pkg:sv <0x4d9fee6b>
+			streams:  22, words: 19767
+		worklib.uvm_pkg:sv <0x3842b60c>
+			streams:  59, words: 61696
+		worklib.uvm_pkg:sv <0x42bf93f4>
+			streams:  23, words: 28579
+		worklib.uvm_pkg:sv <0x10979a13>
+			streams:  29, words: 23665
+		worklib.uvm_pkg:sv <0x3b20ad58>
+			streams:  23, words: 38652
+		worklib.uvm_pkg:sv <0x3ba9c41d>
+			streams:  29, words: 25489
+		worklib.uvm_pkg:sv <0x1ee280f4>
+			streams: 258, words: 311424
+		worklib.uvm_pkg:sv <0x38e88d2b>
+			streams:  23, words: 31551
+		worklib.pkt_proc_with_ext_mem_top:sv <0x484e13e8>
+			streams:  77, words: 85286
+		worklib.pkt_proc_with_ext_mem_pkg:sv <0x431ecc67>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                      13       8
+		Interfaces:                    1       1
+		Verilog packages:              5       5
+		Resolved nets:                 1       1
+		Registers:                 15400   10815
+		Scalar wires:                146       -
+		Vectored wires:               71       -
+		Named events:                  4      12
+		Always blocks:                76      43
+		Initial blocks:              374     186
+		Parallel blocks:              26      27
+		Cont. assignments:            48      28
+		Pseudo assignments:          104      94
+		Assertions:                    2       2
+		SV Class declarations:       228     342
+		SV Class specializations:    441     441
+		Simulation timescale:        1ps
+	Writing initial simulation snapshot: worklib.pkt_proc_with_ext_mem_top:sv
+DEFINE gpdk045 /tools/cadence/FOUNDRY/analog/45nm/gpdk045
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,5): cds.lib Permission denied '/tools/cadence/FOUNDRY/analog/45nm/gpdk045' (cds.lib command ignored).
+DEFINE FINFET_15nm  /home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,8): cds.lib Invalid path '/home/sgeuser11/Desktop/finfet_work/FINfET_15nm_sch' (cds.lib command ignored).
+DEFINE test /home/vvtrainee20/test
+|
+xmsim: *W,DLCPTH (/home/vvtrainee20/cds.lib,9): cds.lib Invalid path '/home/vvtrainee20/test' (cds.lib command ignored).
+Loading snapshot worklib.pkt_proc_with_ext_mem_top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (20.09-s009)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test pkt_proc_with_ext_mem_valid_pktlen_test...
+UVM_INFO ./../uvme/env/pkt_proc_with_ext_mem_env.sv(29) @ 0: uvm_test_top.envh [pkt_proc_with_ext_mem_env] monitor and scoreboard connected
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+-------------------------------------------------------------------------------
+Name                       Type                                     Size  Value
+-------------------------------------------------------------------------------
+uvm_test_top               pkt_proc_with_ext_mem_valid_pktlen_test  -     @2740
+  envh                     pkt_proc_with_ext_mem_env                -     @2799
+    agnth                  pkt_proc_with_ext_mem_agent              -     @2844
+      drvh                 pkt_proc_with_ext_mem_driver             -     @2970
+        rsp_port           uvm_analysis_port                        -     @3070
+        seq_item_port      uvm_seq_item_pull_port                   -     @3019
+      monh                 pkt_proc_with_ext_mem_monitor            -     @3049
+        wr_port            uvm_analysis_port                        -     @3149
+      seqrh                pkt_proc_with_ext_mem_sequencer          -     @3129
+        rsp_export         uvm_analysis_export                      -     @3237
+        seq_item_export    uvm_seq_item_pull_imp                    -     @3785
+        arbitration_queue  array                                    0     -    
+        lock_queue         array                                    0     -    
+        num_last_reqs      integral                                 32    'd1  
+        num_last_rsps      integral                                 32    'd1  
+    sbh                    pkt_proc_with_ext_mem_scoreboard         -     @2874
+      wr_export            uvm_analysis_imp                         -     @2925
+-------------------------------------------------------------------------------
+
+UVM_WARNING @ 0: uvm_test_top.envh.agnth.seqrh@@seqh [uvm_sequence_base] Body definition undefined
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 0: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    0                                  
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     'd0                                
+  sw_rst                       integral           1     1                                  
+  enq_req                      integral           1     'd0                                
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h0                                
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     'd0                                
+  enq_pck_len_i                integral           12    'd0                                
+  deq_req                      integral           1     'dX                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 10000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 10000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    10000                              
+  end_time                     time               64    10000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h0                                
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 20000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 20000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    20000                              
+  end_time                     time               64    20000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     1                                  
+  enq_wr_data_i                integral           32    'h32                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 30000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 30000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    30000                              
+  end_time                     time               64    30000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h42                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 40000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 40000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    40000                              
+  end_time                     time               64    40000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h41                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 50000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 50000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    50000                              
+  end_time                     time               64    50000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h4d                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 60000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 60000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    60000                              
+  end_time                     time               64    60000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h4c                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 70000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 70000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    70000                              
+  end_time                     time               64    70000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h3c                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 80000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 80000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    80000                              
+  end_time                     time               64    80000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h39                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 90000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 90000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    90000                              
+  end_time                     time               64    90000                              
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h3f                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 100000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 100000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    100000                             
+  end_time                     time               64    100000                             
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h43                               
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 110000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 110000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    110000                             
+  end_time                     time               64    110000                             
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     1                                  
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h37                               
+  enq_in_eop                   integral           1     1                                  
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 120000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 120000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    120000                             
+  end_time                     time               64    120000                             
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     'd0                                
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h0                                
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     'd0                                
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 130000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(33) @ 160000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] trying to get transaction from sequence
+-------------------------------------------------------------------------------------------
+Name                           Type               Size  Value                              
+-------------------------------------------------------------------------------------------
+req                            pkt_proc_seq_item  -     @3923                              
+  begin_time                   time               64    160000                             
+  end_time                     time               64    130000                             
+  depth                        int                32    'd2                                
+  parent sequence (name)       string             5     vseqh                              
+  parent sequence (full name)  string             35    uvm_test_top.envh.agnth.seqrh.vseqh
+  sequencer                    string             29    uvm_test_top.envh.agnth.seqrh      
+  rstn                         integral           1     1                                  
+  sw_rst                       integral           1     'd0                                
+  enq_req                      integral           1     'd0                                
+  enq_in_sop                   integral           1     'd0                                
+  enq_wr_data_i                integral           32    'h0                                
+  enq_in_eop                   integral           1     'd0                                
+  enq_pck_len_valid            integral           1     1                                  
+  enq_pck_len_i                integral           12    'd10                               
+  deq_req                      integral           1     1                                  
+  wr_en_mem                    integral           1     'dX                                
+  deq_rd_data_o                integral           14    'h0Xxxx                            
+  enq_packetdrop               integral           1     'dX                                
+  data_valid                   integral           1     'dX                                
+  ram_full                     integral           1     'dX                                
+  ram_empty                    integral           1     'dX                                
+  ram_overflow                 integral           1     'dX                                
+  ram_underflow                integral           1     'dX                                
+-------------------------------------------------------------------------------------------
+UVM_INFO ./../uvme/agent/pkt_proc_with_ext_mem_driver.sv(36) @ 170000: uvm_test_top.envh.agnth.drvh [pkt_proc_with_ext_mem_driver] sent response back to  sequence
+UVM_INFO /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 1170000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   32
+UVM_WARNING :    1
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+[pkt_proc_with_ext_mem_driver]    28
+[pkt_proc_with_ext_mem_env]     1
+[uvm_sequence_base]     1
+Simulation complete via $finish(1) at time 1170 NS + 45
+/tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s009: Exiting on Feb 26, 2023 at 21:26:56 IST  (total: 00:00:07)
