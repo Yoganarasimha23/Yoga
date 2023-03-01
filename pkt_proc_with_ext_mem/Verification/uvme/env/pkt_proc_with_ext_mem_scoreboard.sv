@@ -338,7 +338,7 @@ class pkt_proc_with_ext_mem_scoreboard extends uvm_scoreboard;
           // Put the data back at the front for potential reordering issues
           wr_queue.push_front(expected_data);
           fail_count++;
-        
+        end
       end
       
       // If no match was found with the first item, try the entire queue
@@ -359,7 +359,7 @@ class pkt_proc_with_ext_mem_scoreboard extends uvm_scoreboard;
         if(!matched) begin
           `uvm_warning("SCOREBOARD", $sformatf("Received read data 0x%0h with no matching write data in queue", 
                                              trans.deq_rd_data_o))
-        
+        end
       end
       else if(!matched) begin
         `uvm_warning("SCOREBOARD", $sformatf("Received read data 0x%0h with no corresponding write data", 
@@ -375,7 +375,7 @@ class pkt_proc_with_ext_mem_scoreboard extends uvm_scoreboard;
       end
       else begin
         `uvm_info("SCOREBOARD_DEBUG", "Transaction contained no enq or deq operations", UVM_MEDIUM)
-      
+      end
     end
   endfunction
   
