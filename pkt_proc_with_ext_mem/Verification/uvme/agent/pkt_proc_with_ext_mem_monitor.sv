@@ -34,7 +34,7 @@ class pkt_proc_with_ext_mem_monitor extends uvm_monitor;
 		xtn=pkt_proc_seq_item::type_id::create("xtn");
 		forever begin
 			@(posedge vif.clk)
-				if(vif.rstn && vif.deq_req )begin
+				if(vif.rstn && vif.enq_req)begin
 					xtn.rstn = vif.rstn;
 					xtn.sw_rst = vif.sw_rst;
 					xtn.enq_req = vif.enq_req;
@@ -43,10 +43,11 @@ class pkt_proc_with_ext_mem_monitor extends uvm_monitor;
 					xtn.enq_wr_data_i = vif.enq_wr_data_i;
 					xtn.enq_in_sop = vif.enq_in_sop;
 					xtn.enq_in_eop = vif.enq_in_eop;
-				//end 
-					xtn.deq_req = vif.deq_req;
+				end
+					//xtn.deq_req = vif.deq_req;
 				////....output signals....////
-			//if( vif.rstn && vif.deq_req)begin				
+			if( vif.rstn && vif.deq_req)begin
+				xtn.deq_req = vif.deq_req;
 				xtn.deq_rd_data_o = vif.deq_rd_data_o;
 				xtn.data_valid = vif.data_valid;
 				xtn.ram_full = vif.ram_full;
@@ -56,11 +57,11 @@ class pkt_proc_with_ext_mem_monitor extends uvm_monitor;
 				xtn.enq_packetdrop = vif.enq_packet_drop;
 				xtn.rd_en_mem = vif.rd_en_mem;
 				xtn.wr_en_mem = vif.wr_en_mem;
+			end
 				wr_port.write(xtn);				
 			
 				//xtn.print();
-				//`uvm_info("monitor",$sformatf("printing from monitor\n %s",xtn.sprint()),UVM_MEDIUM)
-			end
+				`uvm_info("monitor",$sformatf("Transation captured\n %s",xtn.sprint()),UVM_MEDIUM)
 				//$display("deq_rd_data=%0d",xtn.deq_rd_data_o);
 				//$display("deq_rd_data=%0d",vif.deq_rd_data_o);
 				//$display("data_valid=%0d",vif.data_valid);
